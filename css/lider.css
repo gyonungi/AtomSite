@@ -1,0 +1,314 @@
+@font-face {
+    font-family: "Rosatom";
+    src: url(/fonts/Rosatom-Regular.ttf);
+}
+
+.teksKartinki img {
+    width: 1920px;
+    height: 223px;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    margin: 0; /* Обнуляем отступы */
+}
+.teksKartinkis {
+    left: 195px;
+    top: 99px;
+    position: absolute;
+    color: #fff;
+    font-family: Open Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px;
+}
+.teksKartinkis__low {
+    left: 195px;
+    top: 170px;
+    position: absolute;
+    color: #fff;
+    font-family: Rosatom;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.6px;
+}
+.categories {
+    margin-top: 50px;
+    margin-bottom: 56px;
+}
+.categories ul {
+    display: flex;
+    width: 291px;
+    border-radius: 55px;
+    background-color: #f7f8fa;
+}
+
+.categories ul li {
+    background-color: #f7f8fa;
+    padding: 13px 30px;
+    border-radius: 55px;
+    margin-right: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.1s ease-in-out;
+}
+
+.categories ul li:hover {
+    background-color: #025ea1;
+    color: white;
+}
+.categories ul li :active {
+    background-color: #025ea1;
+    color: white;
+}
+.categories li.active {
+    background-color: #025ea1;
+    color: white;
+}
+.main__info {
+    display: flex;
+    justify-content: space-between;
+}
+.main__info img {
+    width: 540px;
+    height: 540px;
+}
+.main__info li {
+    list-style: inside;
+    color: #000;
+    font-family: Rosatom;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.info__text {
+    width: 840px;
+    height: 560px;
+    background: #f0f7fc;
+    border-radius: 10px;
+    padding-left: 45px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+}
+.info__text li {
+    color: #000;
+    font-family: Rosatom;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 10px 0;
+}
+.info__text p {
+    color: #000;
+    font-family: Rosatom;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+.card__position {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    margin-bottom: 126px;
+}
+.card__info {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.card__info img {
+    width: 440px;
+    height: 578.98px;
+    margin-bottom: 30px;
+}
+.card__info p {
+    color: #025ea1;
+    text-align: center;
+    font-family: Rosatom;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25.6px; /* 160% */
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.card__info span {
+    color: #000;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 29.4px; /* 140% */
+    text-transform: uppercase;
+}
+.card__info .span__text {
+    color: #bababa;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 29.4px; /* 140% */
+    text-transform: uppercase;
+}
+h1 {
+    margin-bottom: 20px;
+    color: #000;
+    font-family: "Fira Sans";
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45.5px; /* 130% */
+    text-transform: uppercase;
+}
+.corner {
+    border-radius: 20px;
+    background: #025ea1;
+    width: 80px;
+    height: 14px;
+    margin-bottom: 32px;
+}
+.demo-container {
+    margin-bottom: 100px;
+}
+.section {
+    width: 1440px;
+    padding: 24px 48px;
+    border-radius: 12px;
+    background: #f0f7fc;
+    margin-bottom: 120px;
+}
+.section__position {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.section__position p {
+    color: #000;
+    font-family: Rosatom;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 41.6px; /* 160% */
+}
+.section__position span {
+    color: #000;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 49px; /* 140% */
+}
+.section__position button {
+    display: flex;
+    padding: 18px 50.72px 17.39px 48.98px;
+    align-items: flex-start;
+    border-radius: 10px;
+    background: #025ea1;
+    color: #fff;
+    text-align: center;
+    font-family: Rosatom;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 29.4px; /* 140% */
+    text-transform: uppercase;
+}
+.buy__main {
+    margin-bottom: 100px;
+}
+.buy__position {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+}
+.buy__position img {
+    width: 320px;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    margin-bottom: 30px;
+    margin-right: 40px;
+}
+.buy__position button {
+    display: flex;
+    padding: 12px 32px;
+    align-items: flex-start;
+    border-radius: 10px;
+    background: #025ea1;
+    color: #fff;
+    text-align: center;
+    font-family: Rosatom;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 29.4px; /* 183.75% */
+    text-transform: uppercase;
+}
+.buy__infotext {
+    width: 1000px;
+    height: 404px;
+    margin-left: 40px;
+    padding: 12px 32px;
+    background: #f0f7fc;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    align-items: center;
+    justify-content: center;
+}
+.buy__infotext li {
+    width: 922px;
+    margin: 25px 0;
+    color: #000;
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.6px;
+}
+.text__span {
+    color: #7e7e7e;
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+.rekvizit {
+    width: 1440px;
+    height: 360px;
+    background: rgb(240, 247, 252);
+    padding: 30px;
+    border-radius: 10px;
+    font-family: "Fira Sans";
+    margin-right: 50px;
+}
+.rekvizit li {
+    color: #080515;
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}

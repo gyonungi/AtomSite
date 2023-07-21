@@ -1,0 +1,361 @@
+.teksKartinki img {
+	width: 1920px;
+	height: 230px;
+	background-repeat: no-repeat;
+	object-fit: cover;
+	background-size: cover;
+	margin: 0; /* Обнуляем отступы */
+}
+.teksKartinki__mob {
+	display: none;
+}
+.teksKartinkis {
+	left: 336px;
+	top: 145px;
+	position: absolute;
+	color: #fff;
+	font-family: Rosatom;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 56px;
+}
+.info {
+	display: flex;
+	margin-top: 50px;
+	margin-bottom: 43px;
+}
+h1 {
+	margin-bottom: 20px;
+	color: #000;
+	font-family: "Fira Sans";
+	font-size: 35px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 45.5px; /* 130% */
+	text-transform: uppercase;
+}
+.contacts {
+	display: grid;
+	align-content: space-evenly;
+	width: 700px;
+	height: 385px;
+	background: rgb(240, 247, 252);
+	color: black;
+	text-align: center;
+	border: 1px solid rgb(240, 247, 252);
+	justify-items: start;
+	border-radius: 15px;
+	margin-right: 50px;
+	justify-content: center;
+}
+.contacts span {
+	color: #080515;
+	font-family: Rosatom;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+}
+.locat__text {
+	color: #080515;
+	font-family: Rosatom;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+	margin-right: 50px;
+}
+.contacts img {
+	width: 24px;
+	height: 24px;
+	margin-right: 5px;
+}
+.example {
+	display: flex;
+	width: 520px;
+	padding: 10px 16px;
+	align-items: center;
+	gap: 10px;
+	border-radius: 8px;
+	background: #fff;
+	color: #7e7e7e;
+	font-family: "Fira Sans";
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+	border: 0;
+}
+.example:active,
+.example:hover,
+.example:focus {
+	outline: 0;
+	outline-offset: 0;
+}
+.contacts button {
+	display: flex;
+	width: 264px;
+	padding: 10px 16px;
+	align-items: center;
+	gap: 10px;
+	border-radius: 8px;
+	background: #025ea1;
+	color: #fff;
+	font-family: "Fira Sans";
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 24px;
+}
+.contacts p {
+	color: #080515;
+	font-family: Fira Sans;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 16px;
+}
+.text__span {
+	color: #7e7e7e;
+	font-family: Fira Sans;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 24px;
+}
+.rekvizit {
+	width: 650px;
+	background: rgb(240, 247, 252);
+	padding: 30px;
+	border-radius: 10px;
+	height: 385px;
+	font-family: "Fira Sans";
+	margin-right: 50px;
+}
+.rekvizit li {
+	color: #080515;
+	font-family: Fira Sans;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+}
+.yandex_map {
+	margin-bottom: 6px;
+}
+.corner {
+	border-radius: 20px;
+	background: #025ea1;
+	width: 80px;
+	height: 14px;
+	margin-bottom: 32px;
+}
+.yandex_map iframe {
+	border-radius: 25px;
+	overflow: hidden;
+}
+.arrow_up img {
+	cursor: pointer;
+	position: absolute;
+	bottom: 693px;
+	right: 41px;
+	background: rgba(0, 0, 0, 0.5);
+}
+.arrow_up {
+	width: 50px;
+	height: 50px;
+	background-color: white;
+	background: rgba(0, 0, 0, 0);
+}
+
+@media (max-width: 1220px) {
+	.teksKartinkis {
+		display: none;
+	}
+	.teksKartinki {
+		display: none;
+	}
+	.teksKartinki__mob img {
+		width: 100%;
+		background-repeat: no-repeat;
+		object-fit: cover;
+		background-size: cover;
+		margin: 0;
+		display: block;
+	}
+}
+
+@media (max-width: 767px) {
+	.arrow_up {
+		display: none;
+	}
+	.teksKartinki__mob img {
+		width: 360px;
+		height: 114px;
+		background-repeat: no-repeat;
+		object-fit: cover;
+		background-size: cover;
+		margin: 0;
+	}
+	.teksKartinki__mob {
+		display: block;
+	}
+	.teksKartinkis__mob {
+		position: absolute;
+		top: 108px;
+		left: 80px;
+		color: #fff;
+		font-family: Rosatom;
+		font-size: 17px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 24.762px;
+	}
+	.info {
+		display: grid;
+		justify-content: center;
+		align-items: center;
+		justify-items: start;
+		margin-bottom: 25px;
+	}
+	h1 {
+		margin-bottom: 8px;
+		color: #080515;
+		font-family: Fira Sans;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 17.676px; /* 110.472% */
+		text-transform: uppercase;
+	}
+	.corner {
+		margin-bottom: 25px;
+		width: 31.078px;
+		height: 3.885px;
+	}
+	.contacts {
+		width: 330px;
+		height: 280px;
+		display: grid;
+		border-radius: 8px;
+		background: #f0f7fc;
+		color: black;
+		text-align: center;
+		border: 1px solid rgb(240, 247, 252);
+		margin-right: 141px;
+		justify-items: start;
+		justify-content: start;
+		align-items: center;
+		margin-bottom: 33px;
+	}
+	.contacts img {
+		width: 18px;
+		height: 18px;
+		margin-left: 11px;
+	}
+	.contacts span {
+		color: #080515;
+		font-family: Rosatom;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 11.28px;
+	}
+	.locat__text {
+		color: #080515;
+		font-family: Rosatom;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 120%;
+	}
+	.example {
+		display: flex;
+		width: 314px;
+		padding: 10px 16px;
+		align-items: center;
+		gap: 10px;
+		border-radius: 3.76px;
+		background: #fff;
+		color: #7e7e7e;
+		font-family: "Fira Sans";
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 24px;
+		border: 0;
+		margin-left: 10px;
+	}
+	.contacts button {
+		display: flex;
+		width: 236px;
+		height: 36px;
+		padding: 10px 16px;
+		align-items: center;
+		gap: 4.7px;
+		border-radius: 3.76px;
+		background: #025ea1;
+		color: #fff;
+		font-family: Fira Sans;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 11.28px;
+		margin-left: 10px;
+	}
+	.contacts p {
+		color: #080515;
+		font-family: Fira Sans;
+		font-size: 9px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 110%;
+	}
+	.contacts u {
+		color: #080515;
+		font-family: Fira Sans;
+		font-size: 9px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 110%;
+		text-decoration-line: underline;
+		margin-right: 185px;
+	}
+	.text__span {
+		color: #7e7e7e;
+		font-family: Fira Sans;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 22px;
+	}
+	.rekvizit {
+		width: 330px;
+		background: rgb(240, 247, 252);
+		padding: 30px;
+		border-radius: 10px;
+		height: 585px;
+		font-family: "Fira Sans";
+	}
+	.rekvizit li {
+		color: #080515;
+		font-family: Fira Sans;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 22px;
+	}
+	.yandex_map {
+		margin-bottom: 24px;
+		display: flex;
+		justify-content: center;
+	}
+	.yandex_map iframe {
+		background-repeat: no-repeat;
+		object-fit: cover;
+		background-size: cover;
+		width: 480px;
+		height: 295px;
+	}
+}

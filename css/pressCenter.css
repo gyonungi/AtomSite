@@ -1,0 +1,581 @@
+@font-face {
+    font-family: "Rosatom";
+    src: url(/fonts/Rosatom-Regular.ttf);
+}
+
+.teksKartinki__mob {
+    display: none;
+}
+.teksKartinki img {
+    width: 1920px;
+    height: 223px;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    margin: 0; /* Обнуляем отступы */
+}
+.teksKartinkis {
+    left: 80px;
+    top: 145px;
+    position: absolute;
+    color: #fff;
+    font-family: Rosatom;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px;
+}
+.banner__mob {
+    display: none;
+}
+.banner__mob img {
+    display: none;
+}
+.banner__text__mob {
+    display: none;
+}
+.banner {
+    width: 1440px;
+    height: 400px;
+    margin-top: 50px;
+}
+.banner__text {
+    position: absolute;
+    color: #fff;
+    font-family: Rosatom;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    top: 630px;
+    right: 533px;
+}
+.banner__texts {
+    color: #fff;
+    font-family: Rosatom;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    position: absolute;
+    top: 670px;
+    right: 354px;
+}
+.categories {
+    margin-top: 50px;
+    margin-bottom: 56px;
+}
+.categories ul {
+    display: flex;
+    width: 291px;
+    border-radius: 55px;
+    background-color: #f7f8fa;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.categories ul li {
+    background-color: #f7f8fa;
+    padding: 13px 30px;
+    border-radius: 55px;
+    margin-right: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.1s ease-in-out;
+}
+
+.categories ul li:hover {
+    background-color: #025ea1;
+    color: white;
+}
+.categories ul li :active {
+    background-color: #025ea1;
+    color: white;
+}
+.categories li.active {
+    background-color: #025ea1;
+    color: white;
+}
+.button_press {
+    display: inline-flex;
+    padding: 18px 50.72px 17.39px 48.98px;
+    align-items: flex-start;
+    color: #fff;
+    text-align: center;
+    font-family: Rosatom;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 29.4px; /* 140% */
+    text-transform: uppercase;
+    margin-top: 40px;
+    border-radius: 10px;
+    background: #025ea1;
+}
+.card {
+    border: 1px solid #f8f8f8;
+
+    width: 710px;
+    height: 670px;
+    border-radius: 12px;
+    margin-right: 30px;
+    transition: box-shadow 0.3s ease-in-out;
+    cursor: pointer;
+    margin-bottom: 80px;
+}
+.card__position {
+    display: flex;
+}
+.card__text {
+    font-family: "Fira Sans";
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+    word-wrap: normal;
+    margin-top: 30px;
+}
+.card__img {
+    width: 708px;
+    height: 461px;
+}
+
+.card p {
+    width: 685px;
+    height: 56px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-size: 21px;
+    line-height: 28px;
+    color: #333333;
+    word-wrap: normal;
+    padding: 10px;
+}
+.poss__mob {
+    display: none;
+}
+.pos__mob {
+    display: none;
+}
+.watch_button img {
+    width: 15px;
+    height: 16px;
+    position: absolute;
+    right: 10%;
+}
+.watch_button {
+    box-sizing: border-box;
+    position: absolute;
+    border-radius: 10px;
+    border: 1px solid #333;
+    display: inline-flex;
+    padding: 18px 36px 17.39px 36px;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    font-family: "Fira Sans";
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 29.4px;
+    text-transform: capitalize;
+    background-color: #ffffff;
+    color: #333333;
+    margin-left: 500px;
+}
+
+.info__pos {
+    display: flex;
+}
+.contacts {
+    display: grid;
+    align-content: center;
+    width: 608px;
+    height: 120px;
+    background: rgb(240, 247, 252);
+    color: black;
+    text-align: center;
+    border: 1px solid rgb(240, 247, 252);
+    justify-items: start;
+    gap: 20px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+}
+.contacts span {
+    margin-left: 15px;
+    font-family: Rosatom;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+.contacts__text {
+    display: grid;
+    align-content: center;
+    width: 608px;
+    height: 120px;
+    background: rgb(240, 247, 252);
+    color: black;
+    text-align: center;
+    border: 1px solid rgb(240, 247, 252);
+    justify-items: start;
+    gap: 20px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+}
+.contacts__text span {
+    color: #080515;
+    font-family: Rosatom;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+.contacts__text img {
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+h1 {
+    margin-bottom: 20px;
+    color: #000;
+    font-family: "Fira Sans";
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45.5px; /* 130% */
+    text-transform: uppercase;
+}
+.corner {
+    border-radius: 20px;
+    background: #025ea1;
+    width: 80px;
+    height: 14px;
+    margin-bottom: 32px;
+}
+
+.position {
+    margin-right: 160px;
+}
+.arrow_up img {
+    cursor: pointer;
+    position: absolute;
+    bottom: 524px;
+    right: 99px;
+    background: rgba(0, 0, 0, 0.5);
+}
+.arrow_up {
+    width: 50px;
+    height: 50px;
+    background: rgba(0, 0, 0, 0);
+}
+
+@media (max-width: 767px) {
+    h1 {
+        margin-bottom: 8px;
+        color: #080515;
+        font-family: Fira Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 17.676px; /* 110.472% */
+        text-transform: uppercase;
+    }
+    .corner {
+        margin-bottom: 25px;
+        width: 31.078px;
+        height: 3.885px;
+    }
+    .teksKartinkis {
+        display: none;
+    }
+    .teksKartinki {
+        display: none;
+    }
+    .teksKartinki__mob {
+        margin-bottom: 24px;
+    }
+    .teksKartinki__mob img {
+        width: 100%;
+        background-repeat: no-repeat;
+        object-fit: cover;
+        background-size: cover;
+        margin: 0;
+        display: block;
+    }
+    .arrow_up {
+        display: none;
+    }
+    .teksKartinki__mob img {
+        width: 360px;
+        height: 114px;
+        background-repeat: no-repeat;
+        object-fit: cover;
+        background-size: cover;
+        margin: 0;
+    }
+    .teksKartinkis__mob {
+        position: absolute;
+        top: 90px;
+        left: 35px;
+        color: #fff;
+        font-family: Rosatom;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24.762px;
+    }
+    .teksKartinki__mob {
+        display: block;
+    }
+    .banner {
+        display: none;
+    }
+    .banner img {
+        display: none;
+    }
+    .banner__mob {
+        display: block;
+        width: 330px;
+        height: 91.667px;
+        margin-bottom: 32px;
+    }
+    .banner__mob img {
+        display: block;
+    }
+    .banner__text__mob {
+        padding-left: 10px;
+        position: absolute;
+        top: 210px;
+        display: block;
+        color: #fff;
+        font-family: Rosatom;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+    .categories {
+        margin-bottom: 32px;
+    }
+    .categories ul {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        width: 324px;
+        border-radius: 55px;
+        background-color: #f7f8fa;
+    }
+    .categories ul li {
+        background-color: #f7f8fa;
+        padding: 7px 35px;
+        border-radius: 55px;
+        margin-right: 10px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.1s ease-in-out;
+
+        color: #333;
+        font-family: Rosatom;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+    }
+    .categories li {
+        width: 150px;
+        height: 40px;
+    }
+    .categories ul li:hover {
+        background-color: #025ea1;
+        color: white;
+    }
+    .categories ul li :active {
+        background-color: #025ea1;
+        color: white;
+    }
+    .categories li.active {
+        background-color: #025ea1;
+        color: #fff;
+        font-family: Rosatom;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 28px;
+    }
+    .button_press {
+        display: flex;
+        width: 140px;
+        height: 40px;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 15.719999999999999px 8.39px 14.979999999999997px;
+        border-radius: 8px;
+        background: #025ea1;
+        margin-top: -10px;
+        color: #fff;
+        text-align: center;
+        font-family: Rosatom;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 29.4px; /* 210% */
+        text-transform: uppercase;
+    }
+    .card {
+        border: 1px solid #f8f8f8;
+        width: 263px;
+        height: 410px;
+        border-radius: 12px;
+        margin-right: 30px;
+        transition: box-shadow 0.3s ease-in-out;
+        cursor: pointer;
+        margin-bottom: 32px;
+    }
+    .card__position {
+        display: grid;
+        align-content: center;
+        justify-items: start;
+        align-items: center;
+    }
+    .card__text {
+        width: 252px;
+        height: 1px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        color: #333;
+        font-family: Fira Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+    }
+    .card p {
+        font-family: "Open Sans";
+        font-style: normal;
+        font-size: 21px;
+        line-height: 28px;
+        color: #333333;
+    }
+    .card__img {
+        width: 263px;
+        height: 171.247px;
+    }
+
+    .watch_button {
+        color: #333;
+        font-family: Fira Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 29.4px;
+        text-transform: capitalize;
+        margin-left: 10px;
+        margin-top: 130px;
+        width: 100px;
+        height: 40px;
+    }
+    .card__info {
+        word-wrap: none;
+    }
+    .section-5 {
+        margin-bottom: 32px;
+    }
+    .section-5_image img {
+        width: 160px;
+        height: 140px;
+    }
+    .section-5_button {
+        color: #333;
+        border-radius: 3.731px;
+        border: 0.533px solid #333;
+        background: #fff;
+        width: 62px;
+        height: 20px;
+        padding: 4px 5px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        text-decoration: none;
+        transition: 0.3s;
+        color: #025ea1;
+        font-family: Rosatom;
+        font-size: 9px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 111%;
+    }
+    .section-5_row {
+        width: 320px;
+    }
+    .section-5_col {
+        display: none;
+    }
+    .poss__mob {
+        display: flex;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        margin-bottom: 30px;
+    }
+    .pos__mob {
+        display: flex;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        margin-bottom: 30px;
+    }
+    .section-5_text {
+        color: #333;
+        font-family: Fira Sans;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 120%;
+    }
+    .info__pos {
+        display: grid;
+        align-content: center;
+        justify-items: start;
+        align-items: center;
+    }
+    .contacts {
+        width: 332px;
+        padding-left: 11px;
+    }
+    .contacts__text {
+        width: 332px;
+    }
+    .contacts span {
+        margin-left: 11px;
+        color: #080515;
+        font-family: Rosatom;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    .contacts__text span {
+        color: #080515;
+        font-family: Rosatom;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+    }
+}
